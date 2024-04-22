@@ -9,7 +9,7 @@ import java.util.HashMap;
 
 public class ChatServerThread implements Runnable {
 	Socket child;
-	BufferedReader input_stream; // input_stream
+	BufferedReader input_stream; // input_stream(ObjectInputStream)
 	PrintWriter output_stream; // output_stream(ObjectOutputStream)
 	
 	String user_id;

@@ -6,7 +6,7 @@ import java.net.Socket;
 // Thread 사용위한 Runnable 인터페이스
 public class ReceiveDataThread implements Runnable {
 	Socket client;
-	BufferedReader input_stream; //, ois(ObjectInputStream)
+	BufferedReader input_stream; // ois(ObjectInputStream)
 	String received_data;
 	
 	public ReceiveDataThread(Socket s, BufferedReader input_stream) {
